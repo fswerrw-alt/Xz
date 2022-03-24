@@ -5,14 +5,14 @@ from asyncio import sleep
 
 @loader.tds
 class ILYMod(loader.Module):
-    """Famous TikTok hearts animation implemented in FTG"""
+    """я хз чо это"""
 
-    strings = {"name": "LoveMagic"}
+    strings = {"name": "snus"}
 
     async def ilycmd(self, message: "telethon.tl.types.Message") -> None:
         """This famous TikTok animation..."""
         if not message.out:
-            message = await message.respond("ily")
+            message = await message.respond("susss")
 
         arr = ["❤️", "Я на члене", "💛", "💚", "💙", "💜", "🤎", "🖤", "💖"]
         h = "🤍"
